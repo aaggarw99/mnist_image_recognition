@@ -7,6 +7,8 @@ http://yann.lecun.com/exdb/mnist/
 
 Published 12/9/16, Ashwin Aggarwal
 
+This program can be built by simply typing "make" in the command line. Ensure that the CUnit library is installed on your machine in order for the test_ files to work.
+
 mnist.c, mnist.h
 	The mnist library implementation exits within these two files. Essentially, all values of a given training dataset are stored within the program and later used to determine \
 	a corresponding label. The mnist.h contains prototypes for functions used in this library. mnist.c contains all implementations.
